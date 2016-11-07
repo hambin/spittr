@@ -12,11 +12,11 @@ public class HelloController {
 
 	@RequestMapping(method=RequestMethod.GET)
 	public String hello(ModelMap model){
-		return "hello";
+		return "home";
 	}
 	
-	@ModelAttribute("halo")
+/*	@ModelAttribute("halo")
 	public String showString(){
 		return "spittr";
-	}
+	}*/
 }
